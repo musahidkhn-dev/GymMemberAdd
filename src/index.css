@@ -1,0 +1,57 @@
+@font-face {
+    font-family: King ;
+    src: url(/src/assets/King\ Dubstepikz.otf);
+}
+@font-face {
+    font-family: Mina ;
+    src: url(/src/assets/Minangkabau.TTF)
+
+}
+@font-face {
+    font-family: Agent ;
+    src: url(/src/assets/AgentRed.ttf)
+
+}
+
+
+@import "tailwindcss";
+
+
+@theme{
+    --font-Mina: Mina;
+}
+@theme{
+    --font-King: King ;
+}
+@theme{
+    --font-Agent: Agent ;
+}
+
+/* #but:hover{
+    background-color: #70a483;
+    
+} */
+
+/* animation: var(--animate-bounce); bounce 1s infinite */
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+#btn{
+    animation: bounce 3s infinite;
+     transform: translate(-50%, -50%);
+}
+
+#btn:hover {
+    box-shadow: 1px 1px 50px 5px #FFF600;
+    transition: ease-in-out;
+
+}
