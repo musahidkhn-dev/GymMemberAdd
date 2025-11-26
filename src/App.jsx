@@ -6,45 +6,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   const [Members, SetMembers] = useState([
-    {
-      id: 19,
-      name: "Maxxy",
-      age: 22,
-      phone: 9294847078,
-      email: "maxxy292@gmail.com",
-      weight: 62,
-      membershipPlan: "list",
-      feeDone: "Select Yes or no",
-    },
-    {
-      id: 22,
-      name: "Maxxy",
-      age: 22,
-      phone: 9294847078,
-      email: "maxxy292@gmail.com",
-      weight: 62,
-      membershipPlan: "list",
-      feeDone: "Select Yes or no",
-    },
-    { 
-      id:33,
-      name: "Maxxy",
-      age: 22,
-      phone: 9294847078,
-      email: "maxxy292@gmail.com",
-      weight: 62,
-      membershipPlan: "list",
-      feeDone: "Select Yes or no",
-    },
-    { id: 83,
-      name: "Maxxy",
-      age: 22,
-      phone: 9294847078,
-      email: "maxxy292@gmail.com",
-      weight: 62,
-      membershipPlan: "list",
-      feeDone: "Select Yes or no",
-    },
+   
   ]);
   // addMember
   let addMember = (Member) => {
